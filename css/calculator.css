@@ -1,18 +1,28 @@
 .row {
-
+	display: flex;
 }
 
 .btn {
 	width: 48px;
 	height: 48px;
+	background: #ffd700;
+	border-radius: 4px;
+	margin: 0.2rem;
+	text-align: center;
+	line-height: 48px;
+	color: white;
 
 }
 
 .btn:active {
-	
+	background: #ffb700;
 }
 
 .result {
+	width: 205px;
+	height: 40px;
+	margin: 0.2rem;
+	border-radius: 4px;
 
 }
 
@@ -20,4 +30,5 @@
 	background-color: white;
 	border: solid 1px #ffe100;
 	font-size: 14px;
+	
 }
