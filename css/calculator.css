@@ -19,9 +19,12 @@
 }
 
 .result {
-	width: 205px;
+	width: 177px;
 	height: 40px;
 	margin: 0.2rem;
+	padding: 0 1rem;
+	letter-spacing: 0.5px;
+	color: #ffa600;
 	border-radius: 4px;
 
 }
