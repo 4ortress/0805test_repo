@@ -36,7 +36,7 @@ for(let i=0; i<btns.length; i++){
             num2 = Number(num3[2]); // 2번째 입력값 저장
             if(num3[1] == '+') { inputValue.value = num1+num2; }
             else if(num3[1] == '-') { inputValue.value = num1-num2; }
-            // 나눗셈 - 정수인지 확인 후 정수면 그대로 출력, 이외 소숫점 3번째 자리까지 출력
+            // 나눗셈 - 정수인지 확인 후 정수면 그대로 출력, 이외 소수점 3번째 자리까지 출력
             else if(num3[1] == '/') {
                 if(Number.isInteger(num1/num2)) { inputValue.value = num1/num2; }
                 else (inputValue.value = (num1/num2).toFixed(3));
